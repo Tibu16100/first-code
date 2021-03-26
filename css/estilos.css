@@ -68,10 +68,36 @@ header .titulo h2{
 
 /*Secciones*/
 
+#section-1 .column-1 h3{
+    margin: 50px 0 0 0;
+    text-align: center;
+    font-size: 25px;
+}
 
-/*Feedback*/
+/* Galeria */
 
-.feedback{
+#section-1 .gallery{
+    width: 100%;
+    padding: 10px 20%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#section-1 .gallery .element{
+    padding: 30px;
+}
+
+#section-1 .gallery .element img{
+    width: 250px;
+}
+
+#section-1 .gallery .element p{
+    text-align: center;
+}
+
+
+#section-2{
     color: #fff;
     background: #e9ba3a;
     text-align: center;
@@ -80,15 +106,12 @@ header .titulo h2{
 
 
 
-/*Sobre el proyecto*/
-
-
-.sobre-el-proyecto .column-2 h1{
+#section-3 .column-2 h1{
     margin-bottom: 20px;
     font-size: 40px;
 }
 
-.sobre-el-proyecto .column-2 iframe{
+#section-3 .column-2 iframe{
     width: 100%;
     height: 450px;
     border: 0;
@@ -106,16 +129,31 @@ header .titulo h2{
 }
 
 
+#section-5{
+    background: #000;
+    text-align: center;
+    color: #fff;
+}
+
+
 
 /* MediaQueries */
 
 
 @media screen and (max-width: 1000px){
+
+#section-1 .gallery .element img{
+    width: 120px;
+}
     
-.sobre-el-proyecto .column-2{
+#section-3 .column-2{
     width: 100%;
     padding: 50px;
     text-align: center;
+}
+
+.column-4{
+    width: 50%;
 }
     
 
